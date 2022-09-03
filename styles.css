@@ -42,7 +42,8 @@ main {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -59,4 +60,12 @@ h2 {
 h3 {
   width: auto;
   background-color: mediumspringgreen;
+}
+
+h4 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: peachpuff;
+  margin-bottom: 16px;
+  padding: 8px;
 }
